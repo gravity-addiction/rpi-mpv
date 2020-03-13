@@ -1,5 +1,5 @@
 #!/bin/bash
-#wget --no-check-certificate -q 'https://raw.githubusercontent.com/gravity-addiction/rpi-mpv/install-mpv.sh' -O - | bash
+#wget --no-check-certificate -q 'https://raw.githubusercontent.com/gravity-addiction/rpi-mpv/master/install-mpv.sh' -O - | bash
 
 echo "------------------------------"
 echo "Big thanks to RPI_Mike on https://www.raspberrypi.org/forums/viewtopic.php?f=38&t=199775 for putting most of this script together"
