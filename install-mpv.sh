@@ -428,12 +428,12 @@ sudo chmod 644 /etc/apt/preferences
 
 
 ##### This is where we create mpv's configuration file that controls how mpv behaves with ALL video and audio. Please see the full version of Appendix 1 for details; also see the testing section for commentary on the "ytdl-format" line. NOTE: The "alsa-buffer-time" completes the fix to the ALSA issue I described earlier. It defines an audio buffer time of 800,000 microseconds (8/10 of a second). Through extensive testing, I found that this was the final step needed to get mpv and ALSA to play nice together.
-mkdir -p /home/pi/.config/mpv
-echo "--fullscreen
-rpi-background=yes
-screenshot-format=png
-ytdl-format=bestvideo[height<=?1080][fps<=?30][vcodec!=?vp9]+bestaudio/best
---alsa-buffer-time=800000" > /home/pi/.config/mpv/mpv.conf
+# mkdir -p /home/pi/.config/mpv
+# echo "--fullscreen
+# rpi-background=yes
+# screenshot-format=png
+# ytdl-format=bestvideo[height<=?1080][fps<=?30][vcodec!=?vp9]+bestaudio/best
+# --alsa-buffer-time=800000" > /home/pi/.config/mpv/mpv.conf
 
 
 
